@@ -53,6 +53,6 @@ Start Listening
     do {
         try server.startListening()
     } catch let error as NSError {
-        printerror.localizedDescription)
+        print(error.localizedDescription)
     }
 ``` 
