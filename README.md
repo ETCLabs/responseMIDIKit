@@ -13,7 +13,7 @@ Inluded is a small demo app "Response Time"
 ## Quick Start
 ### MIDI Server
 #### Step 1
-Import responseMIDIKit framework into your project
+Import responseMIDIKit into your project
 ```swift
 import responseMIDIKit
 ```
