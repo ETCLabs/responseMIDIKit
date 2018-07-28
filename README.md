@@ -28,7 +28,6 @@ server.terminator = .carriageReturnLineFeed
 #### Step 3
 Conform to the MIDI Packet Destination Protocol   
 
-MIDIPacketDestination:
 ```swift    
     func take(timecodeMessage: MIDITimecodeMessage) {
         print("\(timecodeMessage.timecode()) \(timecodeMessage.framerate())")
