@@ -89,6 +89,11 @@ class WindowSplitViewController: NSSplitViewController {
         
     }
     
+    override func awakeFromNib() {
+        guard let window = self.view.window, let frame =  NSScreen.main?.visibleFrame else { return }
+        window.setFrame((frame), display: true, animate: true)
+    }
+    
     // MARK: - NSSplitview Delegate Method
     
     override func splitView(_ splitView: NSSplitView, canCollapseSubview subview: NSView) -> Bool {
