@@ -32,6 +32,8 @@
 		A56ACB5C2109C91F00D7E1E9 /* ResponseTimeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56ACB5B2109C91F00D7E1E9 /* ResponseTimeDefine.swift */; };
 		A56ACB5E2109CD8200D7E1E9 /* WindowSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56ACB5D2109CD8200D7E1E9 /* WindowSplitViewController.swift */; };
 		A57B42BC2109060C00179C80 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B42BB2109060C00179C80 /* BackgroundView.swift */; };
+		A5841EE9210CE32B000503A8 /* responseMIDIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A518F8802107588D009AAC94 /* responseMIDIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5841EEA210CE32B000503A8 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5ED976321076AD000E2651A /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5ED976721076AD000E2651A /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A5ED976521076AD000E2651A /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5ED977321076B2500E2651A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED976F21076B2500E2651A /* GCDAsyncSocket.m */; };
 		A5ED977421076B2500E2651A /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A5ED977021076B2500E2651A /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,6 +75,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A5841EE9210CE32B000503A8 /* responseMIDIKit.framework in Embed Frameworks */,
+				A5841EEA210CE32B000503A8 /* CocoaAsyncSocket.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
