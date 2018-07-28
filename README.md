@@ -41,4 +41,15 @@ MIDIPacketDestination:
     func take(voiceMessage: MIDIVoiceMessage) {
         print(voiceMessage.message())
     }
-```   
+```  
+
+#### Step 4
+Start Listening 
+
+```swift  
+    do {
+        try server.startListening()
+    } catch let error as NSError {
+        printerror.localizedDescription)
+    }
+``` 
