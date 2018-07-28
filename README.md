@@ -26,7 +26,9 @@ let server = MIDIServer()
 server.interface = "en0"
 server.port = 24601
 server.terminator = .carriageReturnLineFeed
+server.delegate = self
 ```
+
 #### Step 3
 Conform to the MIDI Packet Destination Protocol   
 
