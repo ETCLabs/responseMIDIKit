@@ -8,7 +8,7 @@ For convenience, I've included a few public domain source files, Thanks and curi
 
 ## Response Time
 
-Inluded is a small demo app "Response Time"
+Inluded is a small demo app "Response Time" and can be downloaded [here](https://github.com/ETCLabs/responseMIDIKit/raw/master/Response%20Time/Response%20Time.app.zip)
 
 ## Quick Start
 ### MIDI Server
