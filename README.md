@@ -10,7 +10,7 @@ For convenience, I've included a few public domain source files, Thanks and curi
 
 Inluded is a small demo app "Response Time" and can be downloaded [here](https://github.com/ETCLabs/responseMIDIKit/raw/master/Response%20Time/Response%20Time.app.zip)
 
-![screenshot](https://github.com/ETCLabs/responseMIDIKit/raw/master/Response%20Time/Screen%20Shot%202018-07-28%20at%2019.28.08.png)
+![screenshot](https://raw.githubusercontent.com/ETCLabs/responseMIDIKit/master/Response%20Time/Response-Time-Screenshot.png)
 
 ## Quick Start
 ### MIDI Server
