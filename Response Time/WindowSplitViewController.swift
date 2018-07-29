@@ -80,6 +80,9 @@ class WindowSplitViewController: NSSplitViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+//        guard let window = self.view.window else { return }
+//        window.appearance = NSAppearance(named: .vibrantDark)
+        
         let server = ResponseServer(logs: logs, timecode: timecode)
         let utilities = UtilitiesViewController(server: server)
         // Set up the Splitview Items.

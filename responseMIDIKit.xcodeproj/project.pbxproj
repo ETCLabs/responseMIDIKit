@@ -34,6 +34,7 @@
 		A57B42BC2109060C00179C80 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B42BB2109060C00179C80 /* BackgroundView.swift */; };
 		A5841EE9210CE32B000503A8 /* responseMIDIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A518F8802107588D009AAC94 /* responseMIDIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5841EEA210CE32B000503A8 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5ED976321076AD000E2651A /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5A4504D210E7100001F4990 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4504C210E7100001F4990 /* WindowController.swift */; };
 		A5ED976721076AD000E2651A /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A5ED976521076AD000E2651A /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5ED977321076B2500E2651A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED976F21076B2500E2651A /* GCDAsyncSocket.m */; };
 		A5ED977421076B2500E2651A /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A5ED977021076B2500E2651A /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,6 +115,7 @@
 		A56ACB5B2109C91F00D7E1E9 /* ResponseTimeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTimeDefine.swift; sourceTree = "<group>"; };
 		A56ACB5D2109CD8200D7E1E9 /* WindowSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSplitViewController.swift; sourceTree = "<group>"; };
 		A57B42BB2109060C00179C80 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		A5A4504C210E7100001F4990 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		A5ED976321076AD000E2651A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ED976521076AD000E2651A /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
 		A5ED976621076AD000E2651A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				A56ACB5B2109C91F00D7E1E9 /* ResponseTimeDefine.swift */,
 				A56ACB592109C72200D7E1E9 /* ResponseServer.swift */,
 				A5218E9521075C86005F2462 /* Main.storyboard */,
+				A5A4504C210E7100001F4990 /* WindowController.swift */,
 				A56ACB582109C04B00D7E1E9 /* Timecode View */,
 				A56ACB532109C02000D7E1E9 /* Utilities View */,
 				A56ACB4E2109BFAD00D7E1E9 /* Logs View */,
@@ -441,6 +444,7 @@
 				A56ACB512109C01200D7E1E9 /* UtilitiesViewController.swift in Sources */,
 				A56ACB4C2109BF7700D7E1E9 /* LogsViewController.swift in Sources */,
 				A56ACB562109C04400D7E1E9 /* TimecodeViewController.swift in Sources */,
+				A5A4504D210E7100001F4990 /* WindowController.swift in Sources */,
 				A56ACB5E2109CD8200D7E1E9 /* WindowSplitViewController.swift in Sources */,
 				A56ACB5C2109C91F00D7E1E9 /* ResponseTimeDefine.swift in Sources */,
 				A57B42BC2109060C00179C80 /* BackgroundView.swift in Sources */,
@@ -665,6 +669,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -685,6 +690,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";

@@ -13,8 +13,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        guard let window = NSApplication.shared.mainWindow else { return }
-        window.appearance = NSAppearance(named: .vibrantDark)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
