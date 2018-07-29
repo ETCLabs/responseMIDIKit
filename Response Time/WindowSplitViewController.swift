@@ -66,6 +66,16 @@ class WindowSplitViewController: NSSplitViewController {
             }
         }
     }
+    
+    override func validateMenuItem(_ menuItem: NSMenuItem) -> Bool {
+        guard let identifier = menuItem.identifier?.rawValue else { return  true }
+        if identifier == "utilities" {
+            menuItem.title = utilitiesTabVisibility.menuItemTitle()
+        } else if menuItem.identifier!.rawValue == "logs" {
+            menuItem.title = logsTabVisibility.menuItemTitle()
+        }
+        return true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

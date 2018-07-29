@@ -10,8 +10,8 @@
             <objects>
                 <customObject id="ud3-K4-ItT" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <splitViewController id="9ei-qY-sRE" customClass="WindowSplitViewController" customModule="Response_Time" customModuleProvider="target" sceneMemberID="viewController">
-                    <splitView key="splitView" dividerStyle="thin" id="Sww-6r-Ld8">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                    <splitView key="splitView" misplaced="YES" dividerStyle="thin" id="Sww-6r-Ld8">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <connections>
                             <outlet property="delegate" destination="9ei-qY-sRE" id="1gj-vL-fgR"/>
@@ -22,7 +22,7 @@
                     </connections>
                 </splitViewController>
             </objects>
-            <point key="canvasLocation" x="1061" y="241"/>
+            <point key="canvasLocation" x="1161" y="227"/>
         </scene>
         <!--Application-->
         <scene sceneID="JPo-4y-FX3">
@@ -78,12 +78,12 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="View" id="HyV-fh-RgO">
                                     <items>
-                                        <menuItem title="Hide Utilities" keyEquivalent="u" id="yDI-B6-lxO">
+                                        <menuItem title="Hide Utilities" keyEquivalent="u" identifier="utilities" id="yDI-B6-lxO">
                                             <connections>
                                                 <action selector="toggleUtilitiesVisibilityWithSender:" target="Ady-hI-5gd" id="2xO-Ov-Ru6"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Hide Logs" keyEquivalent="l" id="O38-Tb-Ume">
+                                        <menuItem title="Hide Logs" keyEquivalent="l" identifier="logs" id="O38-Tb-Ume">
                                             <connections>
                                                 <action selector="toggleLogsVisibilityWithSender:" target="Ady-hI-5gd" id="08Z-By-NuJ"/>
                                             </connections>
@@ -156,7 +156,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="76" y="-245"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
